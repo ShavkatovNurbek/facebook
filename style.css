@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.facebook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 50px;
+    background-color: rgb(103, 103, 217);
+    box-shadow: 0 5px 10px 5px silver;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+input {
+    border-radius: 20px;
+    padding: 10px;
+}
+.navbar a:hover {
+    color: red;
+}
+.topbar-user img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.topbar-user img:hover {
+    color: blue;
+    box-shadow: 0 0 10px 2px silver;
+}
